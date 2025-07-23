@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" style="background-color: #f8f9fa;">
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">
+    🌍 CLIMATE RESEARCH INTELLIGENCE PIPELINE
+  </text>
+  
+  <!-- Stage 1: Multi-Source Ingestion -->
+  <rect x="50" y="60" width="700" height="150" rx="10" fill="#e3f2fd" stroke="#1976d2" stroke-width="2"/>
+  <text x="400" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1976d2">
+    📚 STAGE 1: MULTI-SOURCE RESEARCH INGESTION (BatchFlow Engine)
+  </text>
+  
+  <!-- Research Sources -->
+  <rect x="70" y="100" width="100" height="40" rx="5" fill="#bbdefb" stroke="#1976d2"/>
+  <text x="120" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1976d2">🔬 arXiv</text>
+  
+  <rect x="190" y="100" width="100" height="40" rx="5" fill="#bbdefb" stroke="#1976d2"/>
+  <text x="240" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1976d2">🏛️ EU/UN</text>
+  
+  <rect x="310" y="100" width="100" height="40" rx="5" fill="#bbdefb" stroke="#1976d2"/>
+  <text x="360" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1976d2">📊 Patents</text>
+  
+  <rect x="430" y="100" width="100" height="40" rx="5" fill="#bbdefb" stroke="#1976d2"/>
+  <text x="480" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1976d2">🎓 Scholar</text>
+  
+  <rect x="550" y="100" width="100" height="40" rx="5" fill="#bbdefb" stroke="#1976d2"/>
+  <text x="600" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1976d2">📈 SSRN</text>
+  
+  <!-- Database -->
+  <rect x="300" y="160" width="200" height="40" rx="5" fill="#90caf9" stroke="#1976d2"/>
+  <text x="400" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1976d2">📦 Research Database</text>
+  
+  <!-- Arrows to database -->
+  <line x1="120" y1="140" x2="350" y2="160" stroke="#1976d2" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="240" y1="140" x2="370" y2="160" stroke="#1976d2" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="360" y1="140" x2="400" y2="160" stroke="#1976d2" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="480" y1="140" x2="430" y2="160" stroke="#1976d2" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="600" y1="140" x2="450" y2="160" stroke="#1976d2" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Stage 2: AI Validation Pipeline -->
+  <rect x="50" y="240" width="700" height="180" rx="10" fill="#e8f5e9" stroke="#388e3c" stroke-width="2"/>
+  <text x="400" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#388e3c">
+    ⚡ STAGE 2: AI-POWERED VALIDATION PIPELINE (AsyncParallelBatchFlow)
+  </text>
+  
+  <!-- Validation Processes -->
+  <rect x="70" y="280" width="120" height="60" rx="5" fill="#c8e6c9" stroke="#388e3c"/>
+  <text x="130" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#388e3c">🔍 Novelty</text>
+  <text x="130" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#388e3c">Detection</text>
+  <text x="130" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#388e3c">"Is this new?"</text>
+  
+  <rect x="210" y="280" width="120" height="60" rx="5" fill="#c8e6c9" stroke="#388e3c"/>
+  <text x="270" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#388e3c">📈 Publication</text>
+  <text x="270" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#388e3c">Momentum</text>
+  <text x="270" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#388e3c">"Gaining traction?"</text>
+  
+  <rect x="350" y="280" width="120" height="60" rx="5" fill="#c8e6c9" stroke="#388e3c"/>
+  <text x="410" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#388e3c">📋 Patent</text>
+  <text x="410" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#388e3c">Cross-Ref</text>
+  <text x="410" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#388e3c">"Patents filed?"</text>
+  
+  <rect x="490" y="280" width="120" height="60" rx="5" fill="#c8e6c9" stroke="#388e3c"/>
+  <text x="550" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#388e3c">💡 Carbon</text>
+  <text x="550" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#388e3c">Impact</text>
+  <text x="550" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#388e3c">"GtCO2eq potential?"</text>
+  
+  <rect x="630" y="280" width="120" height="60" rx="5" fill="#c8e6c9" stroke="#388e3c"/>
+  <text x="690" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#388e3c">⚖️ Technical</text>
+  <text x="690" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#388e3c">Feasibility</text>
+  <text x="690" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#388e3c">"TRL 5+ realistic?"</text>
+  
+  <!-- Multi-Dimensional Score -->
+  <rect x="300" y="360" width="200" height="40" rx="5" fill="#a5d6a7" stroke="#388e3c"/>
+  <text x="400" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#388e3c">🎯 Multi-Dimensional Score</text>
+  
+  <!-- Arrows from database to validation -->
+  <line x1="400" y1="200" x2="400" y2="240" stroke="#1976d2" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Arrows from validation to score -->
+  <line x1="130" y1="340" x2="350" y2="360" stroke="#388e3c" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="270" y1="340" x2="370" y2="360" stroke="#388e3c" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="410" y1="340" x2="400" y2="360" stroke="#388e3c" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="550" y1="340" x2="430" y2="360" stroke="#388e3c" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="690" y1="340" x2="450" y2="360" stroke="#388e3c" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Stage 3: Sector Routing -->
+  <rect x="50" y="450" width="700" height="200" rx="10" fill="#fff3e0" stroke="#f57c00" stroke-width="2"/>
+  <text x="400" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#f57c00">
+    🎯 STAGE 3: INTELLIGENT SECTOR ROUTING (Flow Engine)
+  </text>
+  
+  <!-- GRI Standards -->
+  <rect x="100" y="500" width="250" height="120" rx="5" fill="#ffcc02" stroke="#f57c00"/>
+  <text x="225" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f57c00">📊 GRI SUSTAINABILITY STANDARDS</text>
+  <text x="225" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#f57c00">🏭 Oil &amp; Gas (GRI 11)</text>
+  <text x="225" y="555" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#f57c00">⛏️ Mining (GRI 14)</text>
+  <text x="225" y="570" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#f57c00">🌾 Agriculture (GRI 13)</text>
+  <text x="225" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#f57c00">💰 Financial Services</text>
+  <text x="225" y="600" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#f57c00">🧵 Textiles &amp; Apparel</text>
+  
+  <!-- SBTi Pathways -->
+  <rect x="450" y="500" width="250" height="120" rx="5" fill="#ffcc02" stroke="#f57c00"/>
+  <text x="575" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f57c00">🎯 SBTi SCIENCE-BASED TARGETS</text>
+  <text x="575" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#f57c00">⚓ Maritime Transport</text>
+  <text x="575" y="555" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#f57c00">⚡ Power Generation</text>
+  <text x="575" y="570" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#f57c00">🏗️ Cement Production</text>
+  <text x="575" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#f57c00">🏢 Buildings &amp; Construction</text>
+  <text x="575" y="600" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#f57c00">🚢 Steel Manufacturing</text>
+  
+  <!-- Cross-Sector Mapping -->
+  <rect x="300" y="630" width="200" height="40" rx="5" fill="#ffb74d" stroke="#f57c00"/>
+  <text x="400" y="655" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#f57c00">🔀 CROSS-SECTOR MAPPING</text>
+  
+  <!-- Arrow from score to routing -->
+  <line x1="400" y1="400" x2="400" y2="450" stroke="#388e3c" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Arrows from routing to cross-sector -->
+  <line x1="225" y1="620" x2="350" y2="630" stroke="#f57c00" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="575" y1="620" x2="450" y2="630" stroke="#f57c00" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Stage 4: Insights Generation -->
+  <rect x="50" y="700" width="700" height="200" rx="10" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="2"/>
+  <text x="400" y="725" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#7b1fa2">
+    🧠 STAGE 4: INTELLIGENT INSIGHTS GENERATION
+  </text>
+  
+  <!-- Priority Boxes -->
+  <rect x="100" y="750" width="150" height="80" rx="5" fill="#ce93d8" stroke="#7b1fa2"/>
+  <text x="175" y="770" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#7b1fa2">⭐ HIGH PRIORITY</text>
+  <text x="175" y="785" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7b1fa2">• 2+ Research Groups</text>
+  <text x="175" y="800" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7b1fa2">• Patent Activity</text>
+  <text x="175" y="815" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7b1fa2">• 12mo Consistency</text>
+  
+  <rect x="325" y="750" width="150" height="80" rx="5" fill="#ce93d8" stroke="#7b1fa2"/>
+  <text x="400" y="770" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#7b1fa2">📈 MEDIUM PRIORITY</text>
+  <text x="400" y="785" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7b1fa2">• Single Group</text>
+  <text x="400" y="800" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7b1fa2">• Some Patents</text>
+  <text x="400" y="815" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7b1fa2">• Inconsistent Findings</text>
+  
+  <rect x="550" y="750" width="150" height="80" rx="5" fill="#ce93d8" stroke="#7b1fa2"/>
+  <text x="625" y="770" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#7b1fa2">👁️ RESEARCH WATCH</text>
+  <text x="625" y="785" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7b1fa2">• Early Stage</text>
+  <text x="625" y="800" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7b1fa2">• No Patents</text>
+  <text x="625" y="815" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7b1fa2">• Contradictory Results</text>
+  
+  <!-- Insight Cards -->
+  <rect x="300" y="850" width="200" height="40" rx="5" fill="#ba68c8" stroke="#7b1fa2"/>
+  <text x="400" y="875" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#7b1fa2">📋 ACTIONABLE INSIGHT CARDS</text>
+  
+  <!-- Arrow from cross-sector to insights -->
+  <line x1="400" y1="670" x2="400" y2="700" stroke="#f57c00" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Arrows from priority boxes to insight cards -->
+  <line x1="175" y1="830" x2="350" y2="850" stroke="#7b1fa2" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="400" y1="830" x2="400" y2="850" stroke="#7b1fa2" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="625" y1="830" x2="450" y2="850" stroke="#7b1fa2" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+</svg>
